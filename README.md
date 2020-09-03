@@ -18,4 +18,4 @@ doing git in vs code sure does make things more complicated, at least how vs cod
 - do ```git show --color --pretty=format:%b $COMMIT``` to show differences visually
 - then you keep pressing enter if the show is longer than just a few lines
 - and it'll eventually mark (END), so type in ```q``` to exit the git show (q as in quit, of course)
-- then of course, do ```git push``` once you're ready to sync to your repository
+- then of course, do ```git push``` (& enter passphrase for your SSH key) once you're ready to sync to your repository
