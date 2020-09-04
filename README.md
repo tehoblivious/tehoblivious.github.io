@@ -21,3 +21,10 @@ doing git in vs code sure does make things more complicated, at least how vs cod
 - then of course, do ```git push``` (& enter passphrase for your SSH key) once you're ready to sync to your repository
 
 test test
+ahaaaaaaa NICE, so, it seems everything works in VS CODE for GIT except for,
+
+- open a powershell (admin) via windows, don't bother wasting time changing default shells in VS CODE cus then you'd just need to switch back to git bash anyway, waste of time.
+- need to manually startup ssh-agent by doing ```Start-Service ssh-agent```
+- and check it via ```Get-Service ssh-agent```, should say it's running now!
+- try a ```git show --color --pretty=format:%b $COMMIT``` to make sure the staged files show up correctly from the VS CODE GUI (they should)
+- hence the only thing really required to use CLI now seems to be a ```git push``` because it requires an SSH passphrase to be entered, which VS CODE seems to be weird with (also, maybe only if you have a passphrase, maybe it's fine if your SSH key doesn't have a passphrase)
