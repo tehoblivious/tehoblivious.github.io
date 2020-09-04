@@ -20,7 +20,10 @@ doing git in vs code sure does make things more complicated, at least how vs cod
 - and it'll eventually mark (END), so type in ```q``` to exit the git show (q as in quit, of course)
 - then of course, do ```git push``` (& enter passphrase for your SSH key) once you're ready to sync to your repository
 
-test test
+test test 
+
+(add a double line break otherwise it doesn't br)
+
 ahaaaaaaa NICE, so, it seems everything works in VS CODE for GIT except for,
 
 - open a powershell (admin) via windows, don't bother wasting time changing default shells in VS CODE cus then you'd just need to switch back to git bash anyway, waste of time.
